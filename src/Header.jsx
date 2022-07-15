@@ -1,9 +1,9 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = () => {
 
-    const apiKey = "f56f24967aaf51182d1d4df628297c6d"
+    const apiKey = '07219f2af9a47a442453d7ffd26d144a'
 
 const [ erstinput ,setErstInput] = useState('')
 const [data ,setData] = useState({})
@@ -32,6 +32,10 @@ const handleInp = (e)=>{
     console.log(e.target.value)
     setErstInput(e.target.value)
 }
+
+useEffect(()=>{
+ getWeat('berlin')
+},[])
 
 
   return (
