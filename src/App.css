@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+.erste{
+  
+  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  border: 2px solid red;
+  background: url('../public//indir.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+width: 100%;
 }
+.zwei{
+  position: absolute;
+    top: 28%;
+    left: 40%;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: blue;
   color: white;
+  width: 170px;
 }
 
-.App-link {
-  color: #61dafb;
+.alt{
+  border: 2px solid red;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cer{
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ height: 200px;
+ width: 200px;
+  top: 28%;
+  left: 40%;
+}
+h1{
+  display: flex;
+  text-align: center;
+  font-family: 'Fascinate', cursive;}
+h3{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  
+}
+.zayi{
+  display:flex ;
+  flex-direction: column; /*allta koymak icin nbu komutu yaziyoruy*/
 }
